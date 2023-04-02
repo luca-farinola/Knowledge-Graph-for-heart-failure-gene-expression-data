@@ -18,8 +18,7 @@ Bird eye view of the project:
 Main sources of information are : Biomart, Bio2RDF, Differential expression metrics
 This is how the KG metaschema look like : 
 
-![Metagraph](Images/KG_metagraph.png = 250x250)
-
+<img src="Images/KG_metagraph.png" widht = "400" height= "400">
 
 
 ### Data
