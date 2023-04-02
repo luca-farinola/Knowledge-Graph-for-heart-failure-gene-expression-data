@@ -16,7 +16,7 @@ Bird eye view of the project:
 * Knowledge graph construction with rdflib (Python)
 * Queries to retrieve interesting genes/biological processes (SPARQL) 
 
-Main sources of information are : Biomart, Bio2RDF, Differential expression metrics
+Main sources of information are : Biomart, Bio2RDF, Differential expression metrics.
 This is how the KG metaschema look like : 
 
 <img src="Images/KG_metagraph.png" widht = "400" height= "400">
