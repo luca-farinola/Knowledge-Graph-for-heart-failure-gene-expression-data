@@ -1,7 +1,7 @@
   <h3 align="center">KG for heart failure gene expression data</h3>
 
   <p align="center">
-    # Project for Building and Mining Knowledge Graph 
+    Project for Building and Mining Knowledge Graph 
   </p>
 </div>
 
