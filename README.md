@@ -12,6 +12,7 @@ In this project gene expression data are used to construct a Knowledge graph.
 
 Bird eye view of the project:
 * Differential expression analysis with limma (R)
+* Co-epression Networks wih NetworkX (Python)
 * Knowledge graph construction with rdflib (Python)
 * Queries to retrieve interesting genes/biological processes (SPARQL) 
 
