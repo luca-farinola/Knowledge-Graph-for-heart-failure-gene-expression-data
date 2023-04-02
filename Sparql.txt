@@ -1,0 +1,42 @@
+Genes :
+
+PREFIX hgnc: <http://bio2rdf.org/hgnc:>
+PREFIX biolink: <https://w3id.org/biolink/vocab/>
+PREFIX go1: <http://amigo.geneontology.org/amigo/term/GO:>
+PREFIX hgnc: <http://identifiers.org/hgnc:>
+PREFIX omim: <https://www.omim.org/entry/>
+PREFIX pubmed: <https://pubmed.ncbi.nlm.nih.gov/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?symbol ?descr ?chr ?foldchange ?pvalue ?gene ?mut
+WHERE {
+	?gene a biolink:Gene.
+  	?gene biolink:full_name ?symbol.
+  	?gene biolink:subclass_of ?descr.
+  	?gene biolink:expressed_in ?chr.
+    ?gene biolink:increases_amount_or_activity_of ?foldchange.
+  	?gene biolink:adjusted_p_value ?pvalue.
+  	?gene biolink:risk_affected_by ?mut
+} order by(?pvalue)
+
+Ontologies : 
+
+PREFIX hgnc: <http://bio2rdf.org/hgnc:>
+PREFIX biolink: <https://w3id.org/biolink/vocab/>
+PREFIX go1: <http://amigo.geneontology.org/amigo/term/GO:>
+PREFIX hgnc: <http://identifiers.org/hgnc:>
+PREFIX omim: <https://www.omim.org/entry/>
+PREFIX pubmed: <https://pubmed.ncbi.nlm.nih.gov/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?GO ?pval ?go
+WHERE {
+	?gene a biolink:Gene.
+  	?gene biolink:participates_in ?go.
+  	?gene biolink:participates_in ?go.
+    ?go biolink:associated_with ?GO.
+  	?go biolink:adjusted_p_value ?pval.
+	?go biolink:part_of ?name
+ 	FILTER (?name="biological_process"^^xsd:string)
+} ORDER BY (?pval)
+LIMIT 20
