@@ -18,7 +18,7 @@ Bird eye view of the project:
 
 Main sources of information are : Biomart, Bio2RDF,Coexpression matrix and Differential expression values.
 Genes are connected to Molecular functions, Biological Processes, Cellular components through EnrichGO but also to pvalues, foldchange
-or other URL such as COSMIC or PubMed articles. 
+or other URL such as COSMIC or PubMed articles. Biolink (v3.2.5) is used for KG schema.  
 
 <img src="Images/KG_metagraph.png" widht = "400" height= "400">
 
