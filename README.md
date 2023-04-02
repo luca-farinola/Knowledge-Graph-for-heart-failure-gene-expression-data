@@ -24,10 +24,10 @@ This is how the KG metaschema look like :
 <!-- DATA -->
 ### Data
 
-Data directory is needed to run the files. Those data include gene expression count data, 
-metadata with patient information, gene lenght for FPKM normalizzation. Those data are uploaded in zenodo : 
-
 </a>
 <a href="https://doi.org/10.5281/zenodo.7790931">
         <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7790931.svg" alt="DOI">
     </a>
+
+Data directory is needed to run the files. Those data include gene expression count data, 
+metadata with patient information, gene lenght for FPKM normalizzation. Those data are uploaded in zenodo at link above.  
