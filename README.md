@@ -20,7 +20,7 @@ This is how the KG metaschema look like :
 
 <img src="Images/KG_metagraph.png" widht = "400" height= "400">
 
-
+<!-- DATA -->
 ### Data
 
 Data directory is needed to run the files. Those data include gene expression count data, 
@@ -30,6 +30,3 @@ metadata with patient information, gene lenght for FPKM normalizzation. Those da
 <a href="https://doi.org/10.5281/zenodo.7790931">
         <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7790931.svg" alt="DOI">
     </a>
-
-
-
