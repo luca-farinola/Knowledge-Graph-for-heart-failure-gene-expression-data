@@ -16,8 +16,9 @@ Bird eye view of the project:
 * Knowledge graph construction with rdflib (Python)
 * Queries to retrieve interesting genes/biological processes (SPARQL) 
 
-Main sources of information are : Biomart, Bio2RDF, Differential expression metrics.
-This is how the KG metaschema look like : 
+Main sources of information are : Biomart, Bio2RDF,Coexpression matrix and Differential expression values.
+Genes are connected to Molecular functions, Biological Processes, Cellular components through EnrichGO but also to pvalues, foldchange
+or other URL such as COSMIC or PubMed articles. 
 
 <img src="Images/KG_metagraph.png" widht = "400" height= "400">
 
